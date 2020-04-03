@@ -3,4 +3,4 @@ The IPL - Indian Premerier League is a major cricket tournament held once every 
 
 The dataset of IPL matches is available in two formats - .yaml files which were uploaded at a portal and the iptl20 portal which consists of match details in json format. The IPL matches in period 2008 till 2018 were considered for training the model. There are three notebook files. Notebook File 1 processes the .yaml files. Notebook File 2 is related to addition of additional variables to the training data set formulated out of .yaml files. Notebook File 3 processes the iplt20 files. Web scrapping is done in this file and the data is downloaded into json files and the json files are then processed to formulate the training data.  
 
-This is a work in progress project. 
+This is a work in progress project. The best regression model is LighGBM regressor model with the root mean squared deviation of 18.5 observed on test set.
